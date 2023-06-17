@@ -1,40 +1,22 @@
 {
-  "name": "read-awrite",
-  "version": "1.0.0",
+  "name": "read-a-write",
+  "version": "0.1.0",
   "private": true,
-  "description": "read-awrite",
-  "author": "Flavia",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "gatsby": "^5.11.0",
-    "gatsby-plugin-image": "^3.11.0",
-    "gatsby-plugin-sharp": "^5.11.0",
-    "gatsby-source-filesystem": "^5.11.0",
-    "gatsby-transformer-sharp": "^5.11.0",
-    "gatsby-transformer-typescript-css-modules": "^1.0.14",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "webpack": "^5.87.0"
-  },
-  "devDependencies": {
-    "@teamsupercell/typings-for-css-modules-loader": "^2.5.2",
-    "@types/node": "^20.2.6",
-    "@types/react": "^18.2.9",
-    "@types/react-dom": "^18.2.4",
-    "css-loader": "^2.0.0",
-    "css-modules-typescript-loader": "^2.0.4",
-    "style-loader": "^0.23.1",
-    "typescript": "^5.1.3",
-    "typescript-plugin-css-modules": "^5.0.1"
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6",
+    "next": "13.4.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.3"
   }
 }
